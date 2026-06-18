@@ -1,6 +1,6 @@
 # 🔍 Pure Python RAG — Retrieval-Augmented Generation from Scratch
 
-This repository tracks my LLM engineering journey. **We are now on Week 2.1!**
+This repository tracks my LLM engineering journey. **We are now on Week 2.2!**
 
 After building an in-memory RAG pipeline in Week 2.1, I have completely overhauled the architecture to use **Persistent Vector Storage (PostgreSQL + pgvector)** and **PDF Ingestion**.
 
