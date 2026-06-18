@@ -1,14 +1,14 @@
 # 🔍 Pure Python RAG — Retrieval-Augmented Generation from Scratch
 
-This repository tracks my LLM engineering journey. **We are now on Week 3!**
+This repository tracks my LLM engineering journey. **We are now on Week 2.1!**
 
-After building an in-memory RAG pipeline in Week 2, I have completely overhauled the architecture to use **Persistent Vector Storage (PostgreSQL + pgvector)** and **PDF Ingestion**.
+After building an in-memory RAG pipeline in Week 2.1, I have completely overhauled the architecture to use **Persistent Vector Storage (PostgreSQL + pgvector)** and **PDF Ingestion**.
 
 > Every piece of this system is written in pure Python without using LangChain or LlamaIndex to understand exactly what happens under the hood.
 
 ---
 
-## ✅ New Features in Week 3
+## ✅ New Features in Week 2.2
 
 - **Persistent Vector Storage**: Migrated from in-memory arrays to a serverless Neon PostgreSQL database.
 - **pgvector Integration**: Offloaded Cosine Similarity search directly into SQL using the `<=>` operator.
